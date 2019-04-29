@@ -1,0 +1,8 @@
+.partners {
+    width: 100rem;
+    opacity: 0.75;
+
+    @include media(768px) {
+        width: 106%;
+    }
+}

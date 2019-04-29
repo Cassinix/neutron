@@ -1,0 +1,19 @@
+.download-btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1;
+
+    @include media(500px) {
+        justify-content: center;
+    }
+
+    &__items {
+        width: 18rem;
+        margin-left: 1rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

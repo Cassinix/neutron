@@ -1,0 +1,10 @@
+.menu-btn {
+	display: none;
+	width: 3rem;
+	font-size: 4rem;
+	color: $textPurpleColor;
+
+	@include media(768px) {
+		display: block;
+	}
+}

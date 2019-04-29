@@ -1,0 +1,30 @@
+.socialList {
+
+    &__items {
+        margin-bottom: 1rem;
+    }
+
+    &__items i {
+        font-size: 2.5rem;
+        color: #737373;
+        transition: 0.2s;
+    }
+
+    &__items i.icon-gplus-squared {
+        &:hover {
+            color: $googlePlusColor;
+        }
+    }
+
+    &__items i.icon-facebook-official {
+        &:hover {
+            color: $facebookColor;
+        }
+    }
+
+    &__items i.icon-twitter-squared {
+        &:hover {
+            color: $twitterColor;
+        }
+    }
+}

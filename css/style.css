@@ -1,0 +1,2185 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: 'TitiliumWeb Regular';
+  font-display: auto;
+  src: url("../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'TitiliumWeb SemiBold';
+  font-display: auto;
+  src: url("../assets/fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'TitiliumWeb Bold';
+  font-display: auto;
+  src: url("../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  font-display: auto;
+  src: url("../assets/fonts/MinionPro/MinionPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Malaga Regular';
+  font-display: auto;
+  src: url("../assets/fonts/Malaga/subset-MalagaOT-RegItalic.woff") format("woff"), url("../assets/fonts/Malaga/subset-MalagaOT-RegItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../assets/fonts/fontello-icons/font/fontello.eot?89399968");
+  src: url("../assets/fonts/fontello-icons/font/fontello.eot?89399968#iefix") format("embedded-opentype"), url("../assets/fonts/fontello-icons/font/fontello.woff2?89399968") format("woff2"), url("../assets/fonts/fontello-icons/font/fontello.woff?89399968") format("woff"), url("../assets/fonts/fontello-icons/font/fontello.ttf?89399968") format("truetype"), url("../assets/fonts/fontello-icons/font/fontello.svg?89399968#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?89399968#fontello') format('svg');
+    }
+  }
+  */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-login:before {
+  content: '\e800';
+}
+
+/* '' */
+.icon-googleplay:before {
+  content: '\e801';
+}
+
+/* '' */
+.icon-menu:before {
+  content: '\f0c9';
+}
+
+/* '' */
+.icon-gplus-squared:before {
+  content: '\f0d4';
+}
+
+/* '' */
+.icon-upload-cloud:before {
+  content: '\f0ee';
+}
+
+/* '' */
+.icon-dollar:before {
+  content: '\f155';
+}
+
+/* '' */
+.icon-apple:before {
+  content: '\f179';
+}
+
+/* '' */
+.icon-facebook-official:before {
+  content: '\f230';
+}
+
+/* '' */
+.icon-twitter-squared:before {
+  content: '\f304';
+}
+
+/* '' */
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  line-height: 1;
+  border: none;
+  background: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  letter-spacing: unset;
+  font-weight: 400;
+  font-family: 'TitiliumWeb Regular', sans-serif;
+  color: inherit;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html {
+  font-size: calc(100vw/192);
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: calc(100vw/130);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: calc(100vw/90);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: calc(100vw/60);
+  }
+}
+
+p, a, span, h1, h2, h3, h4, h5, h6 {
+  font-size: 20px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__container {
+  width: 141rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 7.8rem;
+  padding-bottom: 2rem;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  .header__container {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__container {
+    padding: 5rem 6rem;
+  }
+}
+
+.header__topLine {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__items {
+  margin-left: 1.3rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .header__items {
+    margin-left: 0;
+    margin-right: 2rem;
+  }
+}
+
+.logo {
+  font-family: 'TitiliumWeb Bold', sans-serif;
+  font-size: 3rem;
+  color: #959393;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    font-size: 4rem;
+  }
+}
+
+.logo__modify {
+  font-family: 'TitiliumWeb Bold', sans-serif;
+  color: #5b4295;
+  font-size: 3rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .logo__modify {
+    font-size: 4rem;
+  }
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+}
+
+.navigation__items {
+  margin: 0 0.5rem;
+}
+
+.navigation__link {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #535353;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.navigation__link:hover {
+  -webkit-box-shadow: 0px 7px 9px 3px #8e75de8c, inset 0 0 1px #8e85a5;
+          box-shadow: 0px 7px 9px 3px #8e75de8c, inset 0 0 1px #8e85a5;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation__link:hover {
+    -webkit-box-shadow: 0px 7px 9px 0px #8e75de26;
+            box-shadow: 0px 7px 9px 0px #8e75de26;
+    color: #535353;
+  }
+  .navigation__link:hover:active {
+    -webkit-box-shadow: 0px 7px 9px 3px #8e75de8c;
+            box-shadow: 0px 7px 9px 3px #8e75de8c;
+  }
+}
+
+.authorization {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.authorization__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1rem;
+}
+
+.authorization__items.login-btn {
+  padding: 1.3rem 2rem;
+  border-radius: 2.5rem;
+  color: #5b4295;
+  font-size: 1.8rem;
+}
+
+.authorization__items.login-btn:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 7px 9px 3px #8e75de8c, 0 0 10px #8e85a5;
+          box-shadow: 0px 7px 9px 3px #8e75de8c, 0 0 10px #8e85a5;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1024px) {
+  .authorization__items.login-btn:hover {
+    -webkit-box-shadow: 0px 7px 9px 0px #8e75de26;
+            box-shadow: 0px 7px 9px 0px #8e75de26;
+  }
+  .authorization__items.login-btn:hover:active {
+    -webkit-box-shadow: 0px 7px 9px 3px #8e75de8c;
+            box-shadow: 0px 7px 9px 3px #8e75de8c;
+  }
+}
+
+.authorization__icon {
+  width: 1.5rem;
+}
+
+.authorization__text {
+  font-family: 'TitiliumWeb Bold', sans-serif;
+  font-size: 1.6rem;
+  margin-left: .8rem;
+  white-space: nowrap;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .authorization__text {
+    font-size: 2.2rem;
+  }
+}
+
+.authorization:hover {
+  cursor: pointer;
+}
+
+.menu-btn {
+  display: none;
+  width: 3rem;
+  font-size: 4rem;
+  color: #5b4295;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+}
+
+.button {
+  font-family: 'TitiliumWeb Bold', sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  background: linear-gradient(35deg, #5967aa, #6b2f79);
+  -webkit-box-shadow: 0px 7px 9px 0px #8e75de26;
+          box-shadow: 0px 7px 9px 0px #8e75de26;
+  border-radius: 4rem;
+  padding: 2rem 5.4rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+  letter-spacing: .1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .button {
+    font-size: 2rem;
+  }
+}
+
+.button._smallBtn {
+  background: linear-gradient(150deg, #582c7e 0%, #6276cc 90%);
+  padding: 1.3rem 2rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 7px 9px 3px #8e75de8c;
+          box-shadow: 0px 7px 9px 3px #8e75de8c;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1024px) {
+  .button:hover {
+    -webkit-box-shadow: 0px 7px 9px 0px #8e75de26;
+            box-shadow: 0px 7px 9px 0px #8e75de26;
+  }
+  .button:hover:active {
+    -webkit-box-shadow: 0px 7px 9px 3px #8e75de8c;
+            box-shadow: 0px 7px 9px 3px #8e75de8c;
+  }
+}
+
+.button._icon-btn {
+  padding: 1.6rem;
+  border-radius: 50%;
+  background: #61367a;
+}
+
+.button._shadow-btn::before {
+  content: "";
+  position: absolute;
+  width: 41rem;
+  height: 30rem;
+  z-index: -1;
+  -webkit-box-shadow: 0px 68px 50px -59px #513effaf;
+          box-shadow: 0px 68px 50px -59px #513effaf;
+  -webkit-transform: translate(-14.5rem, -15rem);
+          transform: translate(-14.5rem, -15rem);
+}
+
+.button._shadow-btn::after {
+  content: "";
+  position: absolute;
+  width: 64rem;
+  height: 30rem;
+  z-index: -1;
+  -webkit-box-shadow: 0px 68px 40px -66px #3e79ff99;
+          box-shadow: 0px 68px 40px -66px #3e79ff99;
+  -webkit-transform: translate(-20rem, -15rem);
+          transform: translate(-20rem, -15rem);
+}
+
+.button__icon {
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+}
+
+.button__icon._mgr {
+  margin-right: 1rem;
+}
+
+.button.smaller {
+  padding: 2rem 4.4rem;
+}
+
+.button._modifyBlueBtn {
+  background: -webkit-gradient(linear, left top, right top, from(#81b7ff), to(#547bfc));
+  background: linear-gradient(90deg, #81b7ff, #547bfc);
+}
+
+.button._modifyBlueBtn:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 7px 9px 3px #45d1fc8c;
+          box-shadow: 0px 7px 9px 3px #45d1fc8c;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1024px) {
+  .button._modifyBlueBtn:hover {
+    -webkit-box-shadow: 0px 7px 9px 0px #8e75de26;
+            box-shadow: 0px 7px 9px 0px #8e75de26;
+  }
+  .button._modifyBlueBtn:hover:active {
+    -webkit-box-shadow: 0px 7px 9px 3px #45d1fc8c;
+            box-shadow: 0px 7px 9px 3px #45d1fc8c;
+  }
+}
+
+.language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.language__items {
+  margin-right: 1rem;
+}
+
+.language__items:not(:last-child)::after {
+  content: '/';
+  font-size: 1.4rem;
+  color: #959393;
+  margin-left: 1rem;
+}
+
+.language__link {
+  font-size: 1.4rem;
+  color: #959393;
+  position: relative;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .language__link {
+    font-size: 1.8rem;
+  }
+}
+
+.language__link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 0;
+  background: #959393;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.language__link:hover {
+  /*я учусь использовать примеси :) */
+}
+
+.language__link:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .language__link:hover::after {
+    width: 0;
+  }
+  .language__link:hover:active::after {
+    width: 100%;
+  }
+}
+
+.language__link._current-language {
+  font-family: 'TitiliumWeb Bold', sans-serif;
+}
+
+.language__link._current-language::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #959393;
+}
+
+.mainpart {
+  /* ispr*/
+  background: url("../assets/img/mainbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 100%;
+}
+
+.mainpart__midLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 9rem;
+}
+
+.mainpart__bottomLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 7.4rem;
+}
+
+.mainpart__bottomLine-items {
+  margin: 0 0.8rem;
+  padding-bottom: 25rem;
+  z-index: 2;
+}
+
+.main-title {
+  font-size: 6rem;
+  color: #535353;
+}
+
+.main-title._big-title {
+  font-family: 'TitiliumWeb SemiBold', sans-serif;
+}
+
+.main-title._mgb {
+  margin: 5.5rem 0 1.3rem 0;
+}
+
+.main-sub-title {
+  font-size: 3.6rem;
+  color: #535353;
+}
+
+.main-sub-title__modify {
+  font-size: 3.6rem;
+  color: #fc444a;
+}
+
+.sidebar {
+  position: fixed;
+  top: 37%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 0;
+  margin-right: 5rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar__socials-vertical {
+  margin: 0;
+  padding: 0px 2rem 0 0;
+}
+
+.socialList__items {
+  margin-bottom: 1rem;
+}
+
+.socialList__items i {
+  font-size: 2.5rem;
+  color: #737373;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.socialList__items i.icon-gplus-squared:hover {
+  color: #dd4e41;
+}
+
+.socialList__items i.icon-facebook-official:hover {
+  color: #4267b2;
+}
+
+.socialList__items i.icon-twitter-squared:hover {
+  color: #1da1f2;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.features__container {
+  width: 125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 8rem;
+  padding-top: 11rem;
+  padding-bottom: 3rem;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  .features__container {
+    width: 90vw;
+    margin-left: 7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .features__container {
+    padding-top: 3rem;
+    margin-left: 1rem;
+  }
+}
+
+.features__topLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 7rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .features__topLine {
+    margin-bottom: 0;
+  }
+}
+
+.features__bottomLine {
+  position: relative;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 62rem;
+  margin-left: -30rem;
+  margin-bottom: 3rem;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .features__bottomLine {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features__bottomLine {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.features__bottomLine::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -6rem;
+  width: 200%;
+  height: 1px;
+  background: #000;
+  opacity: .2;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .features__bottomLine::after {
+    width: 100%;
+  }
+}
+
+.features__button {
+  background: #fff;
+  border-radius: 3.6rem;
+  padding: 2.3rem 3rem;
+  margin-right: -40rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.6rem;
+  color: #959393;
+  -webkit-transition: .3s;
+  transition: .3s;
+  z-index: 1;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .features__button {
+    margin-right: 0;
+    font-size: 2rem;
+  }
+}
+
+.features__button:hover {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  color: #535353;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1024px) {
+  .features__button:hover:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #959393;
+  }
+  .features__button:hover:active {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    color: #535353;
+  }
+}
+
+.features__text {
+  font-size: 2.4rem;
+  color: #959393;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .features__text {
+    font-size: 2.5rem;
+  }
+}
+
+.features__text._modify {
+  font-size: 2.4rem;
+  color: #fc444a;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .features__text._modify {
+    font-size: 2.5rem;
+  }
+}
+
+.features__items {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  position: relative;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .features__items {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 3rem;
+  }
+}
+
+.features__items:first-child::after {
+  content: '';
+  position: absolute;
+  right: -2rem;
+  top: -13rem;
+  width: 1px;
+  height: 20rem;
+  background: #000;
+  opacity: .2;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .features__items:first-child::after {
+    display: none;
+  }
+}
+
+.features__items:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  right: -2rem;
+  top: 0;
+  width: 1px;
+  height: 49rem;
+  background: #000;
+  opacity: .2;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .features__items:nth-child(2)::after {
+    display: none;
+  }
+}
+
+.features__items:last-child::after {
+  content: '';
+  position: absolute;
+  right: -20rem;
+  top: 0;
+  width: 20rem;
+  height: 1px;
+  background: #000;
+  opacity: .2;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  .features__items:last-child::after {
+    display: none;
+  }
+}
+
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.feature__topLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .feature__topLine {
+    margin: 0 auto;
+  }
+}
+
+.feature__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.feature__icon {
+  width: 5rem;
+  opacity: .3;
+  margin-right: 1.5rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .feature__icon {
+    width: 7rem;
+  }
+}
+
+.feature__title {
+  font-size: 3rem;
+  color: #535353;
+  margin-bottom: .5rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .feature__title {
+    font-size: 4rem;
+  }
+}
+
+.feature__subtitle {
+  font-size: 1.8rem;
+  color: #959393;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .feature__subtitle {
+    font-size: 2.2rem;
+  }
+}
+
+.feature__desc {
+  color: #959393;
+  font-size: 1.4rem;
+  margin: 2.5rem 2rem 0 0rem;
+  line-height: 1.5;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .feature__desc {
+    font-size: 1.8rem;
+    margin: 2.5rem 4rem 2rem 6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .feature__desc {
+    font-size: 2.5rem;
+  }
+}
+
+.device {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  .device {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.device__container {
+  width: 108rem;
+  margin-left: 2rem;
+  padding-bottom: 16rem;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  .device__container {
+    width: 90vw;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .device__container {
+    padding: 5rem 8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .device__container {
+    padding-bottom: 6rem;
+  }
+}
+
+.device__topLine {
+  width: 94rem;
+  margin-bottom: 6rem;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  .device__topLine {
+    margin-bottom: 13rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .device__topLine {
+    width: 106%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .device__topLine {
+    margin-bottom: 3rem;
+  }
+}
+
+.device__midLine {
+  width: 56rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 5rem 12rem 6rem auto;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .device__midLine {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .device__midLine {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.device__bottomLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+  width: 43rem;
+  margin-left: auto;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .device__bottomLine {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .device__bottomLine {
+    width: 100%;
+  }
+}
+
+.device::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+  width: 80%;
+  height: 1px;
+  background: #000;
+  opacity: .2;
+  z-index: -1;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .device::after {
+    width: 90vw;
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+.device::before {
+  content: '';
+  background: #f7f7f7;
+  position: absolute;
+  bottom: 0;
+  left: 59%;
+  width: 290%;
+  height: 81rem;
+  z-index: -1;
+  -webkit-transform: rotate(-8deg) translate(-50%);
+          transform: rotate(-8deg) translate(-50%);
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  .device::before {
+    bottom: 3rem;
+  }
+}
+
+.device__title._mgb {
+  margin-bottom: 2rem;
+}
+
+.quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.quote__text {
+  font-family: 'Malaga Regular', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: .5rem;
+}
+
+.quote__author {
+  font-family: 'Malaga Regular', sans-serif;
+  font-size: 1.6rem;
+  color: #959393;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .quote__author {
+    font-size: 2rem;
+  }
+}
+
+.dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 1.5rem;
+}
+
+.dots__items {
+  margin: 0.5rem 0;
+  background-color: #000000;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  opacity: .5;
+}
+
+.dots__items._current-dot-item {
+  width: 1.2rem;
+  height: 1.2rem;
+  opacity: 1;
+}
+
+.small-title {
+  font-size: 3.6rem;
+  margin: 0.5rem;
+  color: #535353;
+  z-index: 1;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .small-title {
+    font-size: 5rem;
+  }
+}
+
+.small-text {
+  font-size: 1.6rem;
+  color: #959393;
+  line-height: 2.2rem;
+  z-index: 1;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .small-text {
+    font-size: 2.2rem;
+  }
+}
+
+.small-text._mgb {
+  margin-bottom: 3rem;
+}
+
+.download-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 1;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .download-btns {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.download-btns__items {
+  width: 18rem;
+  margin-left: 1rem;
+}
+
+.download-btns__items:hover {
+  cursor: pointer;
+}
+
+.bg-elem {
+  width: 55rem;
+  position: absolute;
+  bottom: 0;
+  right: 40rem;
+  z-index: 0;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  .bg-elem {
+    right: auto;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-elem {
+    right: 0;
+    left: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bg-elem {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+
+.privacy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), color-stop(35%, #fff));
+  background: linear-gradient(180deg, #f7f7f7, #fff 35%);
+}
+
+.privacy__container {
+  width: 98rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .privacy__container {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .privacy__container {
+    text-align: center;
+  }
+}
+
+.privacy__line {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.privacy__line::after {
+  content: '';
+  position: relative;
+  right: 28.2rem;
+  bottom: -8rem;
+  width: 157rem;
+  height: 1px;
+  background: #000;
+  opacity: .2;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .privacy__line::after {
+    width: 100%;
+    right: 0;
+  }
+}
+
+.privacy__line-items {
+  margin: 0 2rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .privacy__line-items {
+    margin: 2rem;
+  }
+}
+
+.privacy__smallinfo {
+  position: relative;
+  font-size: 1.4rem;
+  color: #959393;
+  margin-left: auto;
+  margin-bottom: 2rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .privacy__smallinfo {
+    font-size: 2rem;
+  }
+}
+
+.privacy__smallinfo::after {
+  content: '';
+  position: absolute;
+  right: -1.3rem;
+  top: -2rem;
+  width: 1px;
+  height: 47rem;
+  background: #000;
+  opacity: .2;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .privacy__smallinfo::after {
+    display: none;
+  }
+}
+
+.small-sub-title {
+  font-size: 2.9rem;
+  color: #959393;
+}
+
+.small-sub-title._mgb {
+  margin-bottom: 4.2rem;
+}
+
+.partners {
+  width: 100rem;
+  opacity: 0.75;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .partners {
+    width: 106%;
+  }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer__container {
+  width: 118rem;
+  margin-left: 25rem;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__container {
+    width: 110rem;
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    padding-top: 0;
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__container {
+    padding-top: 0;
+  }
+}
+
+.footer__topLine {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 6rem;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .footer__topLine {
+    padding-top: 0;
+    width: 90vw;
+    margin: 0 auto 5rem auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__topLine {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.footer__contacts {
+  position: relative;
+  margin-right: auto;
+  margin-left: 2rem;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .footer__contacts {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__contacts {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 3rem;
+    margin: 0 10rem;
+  }
+}
+
+.footer__contacts::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: #000;
+  opacity: .2;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .footer__contacts::before {
+    display: none;
+  }
+}
+
+.footer__items {
+  margin: 0 8rem 0 4rem;
+  position: relative;
+  /*я учусь использовать примеси :) */
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .footer__items {
+    margin: 0 2rem 0 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__items {
+    display: none;
+  }
+}
+
+.footer__items._line::after {
+  content: '';
+  position: absolute;
+  right: -2rem;
+  top: 0;
+  width: 1px;
+  height: 30.3rem;
+  background: #000;
+  opacity: .2;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 768px) {
+  .footer__items._line::after {
+    display: none;
+  }
+}
+
+.footer__socials {
+  margin-bottom: 2rem;
+}
+
+.footer__policy {
+  font-family: 'TitiliumWeb Bold', sans-serif;
+  font-size: 1.2rem;
+  color: #535353;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .footer__policy {
+    font-size: 1.6rem;
+  }
+}
+
+.contacts__items {
+  margin-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacts__name {
+  font-size: 1.4rem;
+  color: #959393;
+  margin-right: .5rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__name {
+    font-size: 2rem;
+  }
+}
+
+.contacts__mail {
+  font-size: 1.4rem;
+  color: #535353;
+  font-family: 'TitiliumWeb Bold', sans-serif;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__mail {
+    font-size: 2rem;
+  }
+}
+
+.contacts__mail._undr {
+  text-decoration: underline;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .footer-nav {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+.footer-nav__name {
+  font-family: 'TitiliumWeb Bold', sans-serif;
+  font-size: 1.8rem;
+  color: #535353;
+  margin-bottom: 2.5rem;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .footer-nav__name {
+    font-size: 2.4rem;
+  }
+}
+
+.footer-nav__list {
+  margin-right: 1.3rem;
+}
+
+.footer-nav__items {
+  list-style-type: disc;
+  margin-bottom: 1.5rem;
+  color: #535353;
+}
+
+.footer-nav__link {
+  font-size: 1.4rem;
+  color: #535353;
+  opacity: .8;
+  -webkit-transition: .3s;
+  transition: .3s;
+  white-space: nowrap;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .footer-nav__link {
+    font-size: 2rem;
+  }
+}
+
+.footer-nav__link:hover {
+  opacity: 1;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-nav__link:hover {
+    opacity: .8;
+  }
+  .footer-nav__link:hover:active {
+    opacity: 1;
+  }
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socials__items:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.socials__items:not(:last-child)::after {
+  content: '/';
+  font-size: 1.4rem;
+  color: #959393;
+  margin-left: 1rem;
+}
+
+.socials__link {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: #535353;
+  opacity: 0.8;
+  -webkit-transition: .3s;
+  transition: .3s;
+  white-space: nowrap;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 500px) {
+  .socials__link {
+    font-size: 1.8rem;
+  }
+}
+
+.socials__link:hover {
+  opacity: 1;
+  /*я учусь использовать примеси :) */
+}
+
+@media screen and (max-width: 1024px) {
+  .socials__link:hover {
+    opacity: .8;
+  }
+  .socials__link:hover:active {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */

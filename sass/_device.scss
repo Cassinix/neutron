@@ -1,0 +1,121 @@
+.device {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+
+    @include media(1200px) {
+        justify-content: center;
+    }
+
+    &__container {
+        width: 108rem;
+        margin-left: 2rem;
+        padding-bottom: 16rem;
+
+        @include media(1200px) {
+            width: 90vw;
+            margin-left: 0;
+        }
+
+        @include media(768px) {
+            padding: 5rem 8rem;
+        }
+
+        @include media(500px) {
+            padding-bottom: 6rem;
+        }
+    }
+
+    &__topLine {
+        width: 94rem;
+        margin-bottom: 6rem;
+
+        @include media (1200px) {
+            margin-bottom: 13rem;
+        }
+
+        @include media (768px) {
+            width: 106%;
+        }
+
+        @include media (500px) {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &__midLine {
+        width: 56rem;
+        display: flex;
+        align-items: flex-start;
+        margin: 5rem 12rem 6rem auto;
+
+        @include media (768px) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        @include media(500px) {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__bottomLine {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        width: 43rem;
+        margin-left: auto;
+
+        @include media (768px) {
+            margin-left: 0;
+        }
+
+        @include media(500px) {
+            width: 100%;
+        }
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 1rem;
+        width: 80%;
+        height: 1px;
+        background: #000;
+        opacity: .2;
+        z-index: -1;
+
+        @include media(500px) {
+            width: 90vw;
+            left: 50%;
+            right: auto;
+            transform: translateX(-50%);
+        }
+    }
+
+    &::before {
+        content: '';
+        background: #f7f7f7;
+        ;
+        position: absolute;
+        bottom: 0;
+        left: 59%;
+        width: 290%;
+        height: 81rem;
+        z-index: -1;
+        transform: rotate(-8deg) translate(-50%);
+
+        @include media (1200px) {
+            bottom: 3rem;
+        }
+    }
+
+    &__title {
+        &._mgb {
+            margin-bottom: 2rem;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.small-title {
+	font-size: 3.6rem;
+	margin: 0.5rem;
+	color: $textDarkColor;
+	z-index: 1;
+	@include media(500px) {
+		font-size: 5rem;
+	}
+}

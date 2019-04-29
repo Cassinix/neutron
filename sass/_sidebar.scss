@@ -1,0 +1,16 @@
+.sidebar {
+    position: fixed;
+    top: 37%;
+    transform: translateY(-50%);
+    right: 0;
+    margin-right: 5rem;
+    @include media(768px) {
+		display: none;
+	}
+
+    &__socials-vertical {
+        margin: 0;
+        padding: 0px 2rem 0 0;
+    }
+
+}

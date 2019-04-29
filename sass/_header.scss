@@ -1,0 +1,41 @@
+.header {
+	display: flex;
+	justify-content: center;
+
+	&__container {
+		width: 141rem;
+		display: flex;
+		flex-direction: column;
+		padding-top: 7.8rem;
+		padding-bottom: 2rem;
+
+		@include media(1200px) {
+			width: 90vw;
+		}
+
+		@include media(768px) {
+			padding: 5rem 6rem;
+		}
+	}
+
+	&__topLine {
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin-bottom: 2rem;
+	}
+
+	&__logo {
+		margin-right: auto;
+	}
+
+	&__items {
+		margin-left: 1.3rem;
+
+		@include media(768px) {
+			margin-left: 0;
+			margin-right: 2rem;
+		}
+	}
+}
