@@ -1568,7 +1568,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   margin: 0.5rem;
   color: #535353;
   z-index: 1;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -1582,7 +1581,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   color: #959393;
   line-height: 2.2rem;
   z-index: 1;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -1606,7 +1604,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
       -ms-flex-pack: end;
           justify-content: flex-end;
   z-index: 1;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -1632,9 +1629,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   right: 40rem;
   z-index: 0;
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 1200px) {
@@ -1683,8 +1677,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
       -ms-flex-align: center;
           align-items: center;
   padding: 5rem 0;
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 768px) {
@@ -1721,7 +1713,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   height: 1px;
   background: #000;
   opacity: .2;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 768px) {
@@ -1733,7 +1724,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
 
 .privacy__line-items {
   margin: 0 2rem;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -1748,7 +1738,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   color: #959393;
   margin-left: auto;
   margin-bottom: 2rem;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -1766,7 +1755,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   height: 47rem;
   background: #000;
   opacity: .2;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 768px) {
@@ -1787,7 +1775,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
 .partners {
   width: 100rem;
   opacity: 0.75;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 768px) {
@@ -1810,9 +1797,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   margin-left: 25rem;
   padding-top: 10rem;
   padding-bottom: 3rem;
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 1200px) {
@@ -1850,8 +1834,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 6rem;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 768px) {
@@ -1874,8 +1856,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   position: relative;
   margin-right: auto;
   margin-left: 2rem;
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 768px) {
@@ -1903,7 +1883,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   height: 100%;
   background: #000;
   opacity: .2;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -1915,8 +1894,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
 .footer__items {
   margin: 0 8rem 0 4rem;
   position: relative;
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 768px) {
@@ -1940,7 +1917,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   height: 30.3rem;
   background: #000;
   opacity: .2;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 768px) {
@@ -1957,7 +1933,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   font-family: 'TitiliumWeb Bold', sans-serif;
   font-size: 1.2rem;
   color: #535353;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -1977,7 +1952,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   font-size: 1.4rem;
   color: #959393;
   margin-right: .5rem;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -1990,7 +1964,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   font-size: 1.4rem;
   color: #535353;
   font-family: 'TitiliumWeb Bold', sans-serif;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -2014,7 +1987,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -2030,7 +2002,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   font-size: 1.8rem;
   color: #535353;
   margin-bottom: 2.5rem;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -2056,7 +2027,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   -webkit-transition: .3s;
   transition: .3s;
   white-space: nowrap;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -2067,7 +2037,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
 
 .footer-nav__link:hover {
   opacity: 1;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 1024px) {
@@ -2107,7 +2076,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   -webkit-transition: .3s;
   transition: .3s;
   white-space: nowrap;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -2118,7 +2086,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
 
 .socials__link:hover {
   opacity: 1;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 1024px) {
