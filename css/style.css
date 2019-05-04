@@ -488,9 +488,6 @@ template {
 
 html {
   font-size: calc(100vw/192);
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 1200px) {
@@ -585,7 +582,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   font-family: 'TitiliumWeb Bold', sans-serif;
   font-size: 3rem;
   color: #959393;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -598,7 +594,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   font-family: 'TitiliumWeb Bold', sans-serif;
   color: #5b4295;
   font-size: 3rem;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 500px) {
@@ -611,7 +606,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 768px) {
@@ -637,7 +631,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
 .navigation__link:hover {
   -webkit-box-shadow: 0px 7px 9px 3px #8e75de8c, inset 0 0 1px #8e85a5;
           box-shadow: 0px 7px 9px 3px #8e75de8c, inset 0 0 1px #8e85a5;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 1024px) {
@@ -682,7 +675,6 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 7px 9px 3px #8e75de8c, 0 0 10px #8e85a5;
           box-shadow: 0px 7px 9px 3px #8e75de8c, 0 0 10px #8e85a5;
-  /*я учусь использовать примеси :) */
 }
 
 @media screen and (max-width: 1024px) {
